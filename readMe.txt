@@ -297,6 +297,76 @@ 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
 ]
 
 
+-----------------------------------------------------
+
+[깃 사용법 추가내용]
+
+깃허브에서 등록한      ID     와      Email
+                        user.name       user.email
+
+=> 본인의 컴퓨터 
+     Git 전역환경변수에 사전 등록(깃 환경설정에 등록)
+
+
+깃 환경설정 상태보기 =>
+git config --list
+
+전역 사용자이름(=사용자ID) 환경변수 등록 =>
+git config --global user.name 본인의Github ID
+보기.
+git config --global user.name zzupd
+
+
+전역 사용자이메일 환경변수 등록 =>
+git config --global user.email 본인의Github Email
+보기.
+git config --global user.email zzupd@naver.com
+
+
+
+VSCode 작업
+1. Git-Bash 전역변수 등록
+2. 깃허브 아이콘 클릭
+   (단축키 => ctrl + sh + g)
+3. 리포지토리 초기화 버튼 클릭
+4. Git [소스제어] 목록버튼 =>
+   변경사항 =>
+   모든 변경 내용 스테이징 클릭
+5. Git [소스제어] 목록버튼 =>
+   분기 =>
+   분기 이름 바꾸기 => 
+   입력창이 나타나면 
+   "master" 에서 "main"으로 변경 후 엔터
+6. Git [소스제어] 목록버튼 =>
+   커밋 =>
+   스테이징 된 항목 커밋 =>
+   커밋 입력 메시지 창이 나타나면
+   처음 업로드할경우 리포지터리 이름 입력
+   => 1020_GalleryList
+7. Git [소스제어] 목록버튼 =>
+   원격 =>
+   원격 추가 =>
+   Github에서 부여받은 URL 복붙 후 엔터 =>
+   원격 이름은 저장소명 또는 본인이 희망하는
+   내용이나 이름 기재함
+
+-----------------------------------------------------
+8. Git [소스제어] 목록버튼 =>
+   풀, 푸시 => 
+   다음으로 푸시... 클릭 =>
+   본인이 만든 원격지 주소(URL) 선택 후 엔터 =>
+   팝업창 생성 =>
+   팝업창 중간 Token 클릭 =>
+   Github에서 생성하고 부여받은 토큰 붙여넣기 =>
+   Sign in 클릭 => 
+   "확장 Github는 Github를 사용하여 로그인 합니다."
+   허용 버튼 클릭
+   
+
+
+
+
+
 
 
  
